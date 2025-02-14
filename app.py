@@ -1,10 +1,10 @@
 import streamlit as st
 import numpy as np
-import pickle  # Assuming the model is saved as a pickle file
+import pickle
 
 # Load trained model (Ensure you have 'model.pkl' in the same directory)
 def load_model():
-    with open("https://github.com/Kecheprathamesh/Diabetes/blob/main/model.pkl", "rb") as file:
+    with open("/model.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
