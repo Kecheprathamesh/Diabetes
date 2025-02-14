@@ -4,7 +4,7 @@ import pickle
 
 # Load trained model (Ensure you have 'model.pkl' in the same directory)
 def load_model():
-    with open("/model.pkl", "rb") as file:
+    with open("model.pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
