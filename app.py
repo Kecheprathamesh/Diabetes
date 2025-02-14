@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
+import sklearn
 
 # Load trained model (Ensure you have 'model.pkl' in the same directory)
 def load_model():
